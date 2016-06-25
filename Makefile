@@ -1,0 +1,3 @@
+all:
+	go install ./...
+	ln -sf $$GOBIN/git-* /usr/local/bin

@@ -1,8 +1,14 @@
 # git-plugins
 
+Note:
 * Script name must be prefixed `git-*`
-* Script must be available on path or bin, e.g.
+* Script must be available on path
 
-  ```bash
-  ln -s /absolute/path/to/actual/git-plugin-file /usr/local/bin
-  ```
+## Prerequisites
+
+Plugins are currently written in go. To be able to install, you must have `GOBIN` set.
+
+## Install
+```bash
+make # From within git-plugins
+```
