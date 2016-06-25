@@ -1,7 +1,0 @@
-#!/bin/sh
-if [ $# -ne 3 ]
-then
-  echo "Usage: \n\tgit gh-deploy <subtree-dir> <remote> <branch>"
-  exit 1
-fi
-git subtree push --prefix $1 $2 $3
